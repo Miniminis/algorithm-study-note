@@ -1,2 +1,2 @@
 language = "python3"
-run = "python explorer_guilds.py"
+run = "python main.py"
