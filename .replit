@@ -1,2 +1,2 @@
 language = "python3"
-run = "python count_numbers.py"
+run = "python fibonachi_memoization_bottomup.py"
