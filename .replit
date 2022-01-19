@@ -1,2 +1,2 @@
 language = "python3"
-run = "python exchange-value.py"
+run = "python count_numbers.py"
