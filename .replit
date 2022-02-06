@@ -1,2 +1,2 @@
 language = "python3"
-run = "python topology_sort.py"
+run = "python prefix_sum.py"
