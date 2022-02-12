@@ -1,2 +1,2 @@
 language = "python3"
-run = "python json_file.py"
+run = "python python_basic_100.py"
