@@ -500,6 +500,65 @@
 # print(result)
 
 # 90
-a, m, d, n = map(int, input().split())
-result = a * m * (n-1) + 
-print(result)
+# a, m, d, n = map(int, input().split())
+# i = 1
+
+# while i < n:
+#   a = a * m + d
+#   i = i+1
+
+# print(a)
+
+# 91
+# a, b, c = map(int, input().split())
+# d = 1
+
+# while d % a != 0 or d % b != 0 or d % c != 0:
+#   d = d+1
+
+# print(d)
+
+# 92
+# n = int(input())
+# call = list(map(int, input().split()))
+
+# check = [ 0 for _ in range(24) ]
+
+# for i in call:
+#   check[i] = check[i] + 1
+
+# for i in range(1, 24):
+#   print(check[i], end = ' ')
+
+# 93
+# n = int(input())
+# nums = list(map(int, input().split()))
+
+# for i in range(n-1, -1, -1):
+#   print(nums[i], end = ' ')
+
+# 94
+# n = int(input())
+# nums = list(map(int, input().split()))
+# nums.sort()
+
+# print(nums[0])
+
+# 95
+# n = int(input())
+# d = [ [0 for j in range(19)] for i in range(19) ]
+
+# for _ in range(n):
+#   a, b = map(int, input().split())
+#   d[a-1][b-1] = 1
+
+# for i in d:
+#   for j in i:
+#     print(j, end = ' ')
+#   print()
+
+# 98
+n = int(input())
+
+
+
