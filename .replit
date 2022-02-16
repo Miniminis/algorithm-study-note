@@ -1,2 +1,2 @@
 language = "python3"
-run = "python python_basic_100.py"
+run = "python greedy_09.py"
