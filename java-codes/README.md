@@ -1,4 +1,4 @@
-## 주제별 알고리즘 자바 저장소 | Topic-based Algorithm in Java
+## [주제별 알고리즘 자바 저장소 | Topic-based Algorithm in Java](https://github.com/Miniminis/algorithm-study-note/tree/main/java-codes)
 
 ## 기본 규칙
 - 하루에 1개일 알고리즘 개념을 정리한 뒤, 1개의 개념문제를 통해 이해한다. 
@@ -19,3 +19,19 @@
 3. 시간복잡도 
 4. 풀이 아이디어 
 5. 풀이
+
+## 주제들
+1. Stack/Queue
+2. Heap
+3. Hash
+4. Greedy
+5. Search
+   1. BFS/DFS
+   2. Binary
+   3. Full
+6. Alignment
+7. Dynamic Programming
+8. Shortest Path
+9. Other graphs
+10. Assignment
+11. Others
