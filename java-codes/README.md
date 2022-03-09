@@ -1,4 +1,4 @@
-## [주제별 알고리즘 자바 저장소 | Topic-based Algorithm in Java](https://github.com/Miniminis/algorithm-study-note/tree/main/java-codes)
+# [주제별 알고리즘 자바 저장소 | Topic-based Algorithm in Java](https://github.com/Miniminis/algorithm-study-note/tree/main/java-codes)
 
 ## 기본 규칙
 - 하루에 1개일 알고리즘 개념을 정리한 뒤, 1개의 개념문제를 통해 이해한다. 
