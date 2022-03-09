@@ -5,9 +5,6 @@
 - 문제 제목 : 거꾸로출력하기3
 - 링크 : [https://codeup.kr/problem.php?id=1402](https://codeup.kr/problem.php?id=1402)
 
-# 메모리 / 수행시간
-- 14316 / 152
-
 # 입력/출력
 
 ```text
@@ -46,3 +43,5 @@ public class Main {
 }
 ```
 
+# 메모리 / 수행시간
+- 14316 / 152
