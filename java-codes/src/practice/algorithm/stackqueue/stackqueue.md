@@ -58,6 +58,12 @@ public class Main {
 
 ```
 
+### 직접구현
+
+```java
+
+```
+
 
 ## queue
 
@@ -111,4 +117,10 @@ public class Main {
 
 }
 
-``
+```
+
+### 직접구현
+
+```java
+
+```

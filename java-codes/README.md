@@ -13,6 +13,9 @@
 - [프로그래머스 고득점 KIT](https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
 - [정올](http://www.jungol.co.kr/)
 
+## 참고
+- [git-이것이 취업을 위한 코딩테스트다 with python](https://github.com/ndb796/python-for-coding-test)
+
 ## 풀이 제출형식
 1. 문제출처_번호 
 2. 문제출처 링크 
