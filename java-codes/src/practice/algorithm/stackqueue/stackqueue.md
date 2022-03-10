@@ -73,6 +73,15 @@ public class Main {
   - 예) 은행대기줄
 - 리스트로 구현은 가능하나, 시간복잡도가 증가한다. 
 - Queue 자료구조를 지원함: LinkedList
+- 지원 매소드
+  - add : 추가
+  - offer : 추가
+  - poll : 첫번째 요소 제거, queue 비어있다면 null
+  - remove : remove 첫번째 요소 제거
+  - clear : 큐 전체 제거
+  - peek : 맨 첫번째 요소 조회
+- 참고
+  - https://coding-factory.tistory.com/602
 
 ### 예시
 
