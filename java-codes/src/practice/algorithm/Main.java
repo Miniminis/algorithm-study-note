@@ -1,29 +1,45 @@
 package practice.algorithm;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("solution(new int[]{93, 30, 55}, new int[]{1, 30, 5}) = "
-                + Arrays.toString(
-                        solution(new int[]{93, 30, 55},
-                                new int[]{1, 30, 5})));
+        int[][] graph = new int[][]{
+                {},
+                {2, 3, 8},
+                {1, 7},
+                {1, 4, 5},
+                {3, 5},
+                {3, 4},
+                {7},
+                {2, 6, 8},
+                {1, 7}
+        };
+
+        boolean[] visited = new boolean[9];
+        Arrays.fill(visited, false);
+
+        bfs(graph, 1, visited);
     }
 
-    public static int[] solution(int[] progresses, int[] speeds) {
-        int[] answer = new int[100];
-        int day = 1;
+    private static void bfs(int[][] graph, int i, boolean[] visited) {
+        visited[i] = true;
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(i);
 
-        for (int i=0; i < progresses.length; i++) {
-            while (progresses[i] + (speeds[i] * day) < 100) {
-                day ++;
+        while (!queue.isEmpty()) {
+            int v = queue.poll();
+            System.out.println("v = " + v);
+
+            for (int node : graph[v]) {
+                if (!visited[node]) {
+                    queue.add(node);
+                    visited[node] = true;
+                }
             }
-            answer[day]++;
         }
-
-        return Arrays.stream(answer).filter(i -> i != 0).toArray();
     }
-
 }
