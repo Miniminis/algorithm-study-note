@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="zips">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[실전 코딩테스트 대비]강의자료 1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[기술면접 가이드] 강의자료.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[자료구조 이론] 강의자료 2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[실전 코딩테스트 대비]강의자료 2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[실전 코딩테스트 대비] 문제풀이 C++ 코드 2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[실전 코딩테스트 대비] 문제풀이 C++ 코드 1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[자료구조 이론] 강의자료 1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lecture-notes/code-files/zips/[알고리즘 이론] 강의자료.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
