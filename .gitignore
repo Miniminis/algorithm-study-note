@@ -6,41 +6,42 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-java-codes/.idea/**/workspace.xml
-java-codes/.idea/**/tasks.xml
-java-codes/.idea/**/usage.statistics.xml
-java-codes/.idea/**/dictionaries
-java-codes/.idea/**/shelf
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
 # AWS User-specific
-java-codes/.idea/**/aws.xml
+.idea/**/aws.xml
 
 # Generated files
-java-codes/.idea/**/contentModel.xml
+.idea/**/contentModel.xml
 
 # Sensitive or high-churn files
-java-codes/.idea/**/dataSources/
-java-codes/.idea/**/dataSources.ids
-java-codes/.idea/**/dataSources.local.xml
-java-codes/.idea/**/sqlDataSources.xml
-java-codes/.idea/**/dynamic.xml
-java-codes/.idea/**/uiDesigner.xml
-java-codes/.idea/**/dbnavigator.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
 # Gradle
-java-codes/.idea/**/gradle.xml
-java-codes/.idea/**/libraries
+.idea/**/gradle.xml
+.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-# java-codes/.idea/artifacts
-# java-codes/.idea/compiler.xml
-# java-codes/.idea/jarRepositories.xml
-# java-codes/.idea/modules.xml
-# java-codes/.idea/*.iml
-# java-codes/.idea/modules
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
 # *.iml
 # *.ipr
 
@@ -48,7 +49,7 @@ java-codes/.idea/**/libraries
 cmake-build-*/
 
 # Mongo Explorer plugin
-java-codes/.idea/**/mongoSettings.xml
+.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
@@ -57,16 +58,16 @@ java-codes/.idea/**/mongoSettings.xml
 out/
 
 # mpeltonen/sbt-idea plugin
-java-codes/.idea_modules/
+.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-java-codes/.idea/replstate.xml
+.idea/replstate.xml
 
 # SonarLint plugin
-java-codes/.idea/sonarlint/
+.idea/sonarlint/
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -75,44 +76,44 @@ crashlytics-build.properties
 fabric.properties
 
 # Editor-based Rest Client
-java-codes/.idea/httpRequests
+.idea/httpRequests
 
 # Android studio 3.1+ serialized cache file
-java-codes/.idea/caches/build_file_checksums.ser
+.idea/caches/build_file_checksums.ser
 
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
 # *.iml
 # modules.xml
-# java-codes/.idea/misc.xml
+# .idea/misc.xml
 # *.ipr
 
 # Sonarlint plugin
 # https://plugins.jetbrains.com/plugin/7973-sonarlint
-java-codes/.idea/**/sonarlint/
+.idea/**/sonarlint/
 
 # SonarQube Plugin
 # https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
-java-codes/.idea/**/sonarIssues.xml
+.idea/**/sonarIssues.xml
 
 # Markdown Navigator plugin
 # https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
-java-codes/.idea/**/markdown-navigator.xml
-java-codes/.idea/**/markdown-navigator-enh.xml
-java-codes/.idea/**/markdown-navigator/
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
 
 # Cache file creation bug
 # See https://youtrack.jetbrains.com/issue/JBR-2257
-java-codes/.idea/$CACHE_FILE$
+.idea/$CACHE_FILE$
 
 # CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
-java-codes/.idea/codestream.xml
+.idea/codestream.xml
 
 # Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
-java-codes/.idea/**/azureSettings.xml
+.idea/**/azureSettings.xml
 
 ### Java ###
 # Compiled class file
@@ -299,7 +300,7 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#java-codes/.idea/
+#.idea/
 
 ### Python Patch ###
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
