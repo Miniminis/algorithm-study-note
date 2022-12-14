@@ -1,25 +1,46 @@
 package practice.algorithm;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        int result = gcd(7, 7);
-        System.out.println("result = " + result);
-    }
 
-    public static int gcd(int m, int n) {
-        if (m < n) {
-            int temp = 0;
-            temp = m;
-            m = n;
-            n = temp;
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+
+        int idx = 0;
+        while(sc.hasNextInt()) {
+            nums[idx] = sc.nextInt();
+            idx++;
         }
 
-        if (m%n == 0) {
-            return n;
+        Arrays.sort(nums);
+
+        boolean[] isPrime = new boolean[nums[n-1] + 1];
+
+        isPrime[0] = isPrime[1] = true;
+        for (int i = 2; i*i <= isPrime.length; i++) {
+            if (!isPrime[i]) {
+                for (int j = i*i; j <= isPrime.length; j += i) {
+                    isPrime[j] = true;
+                }
+            }
         }
 
-        return gcd(n, m%n);
-    }
+        int count = 0;
+        for(int i = 0)
+        for (int i = nums[0]; i <= nums[n-1]; i++) {
+            for (int j = 0; j < nums.length; j++) {
 
+            }
+        }
+
+
+    }
 }

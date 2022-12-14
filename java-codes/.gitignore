@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/java,intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,intellij
 
@@ -110,6 +109,10 @@ fabric.properties
 # CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
+
+# Azure Toolkit for IntelliJ plugin
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
 
 ### Java ###
 # Compiled class file
