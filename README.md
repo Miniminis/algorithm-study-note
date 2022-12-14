@@ -51,10 +51,3 @@
 11. Shortest Path
 12. Other graphs
 13. Others
-
-## Status
-| **일자**     | **문제 1**                                                        | **문제 2**                                                        |
-|------------|-----------------------------------------------------------------|-----------------------------------------------------------------|
-| 2022.12.08 | [답안 1](/java-codes/src/practice/algorithm/array/leetcode_27.md) | [답안 2](/java-codes/src/practice/algorithm/array/leetcode_35.md) |
-| 2022.12.07 | [답안 1](/java-codes/src/practice/algorithm/tree/leetcode_100.md) | -                                                               |
-| 2022.12.06 | [답안 1](/java-codes/src/practice/algorithm/array/leetcode_1.md)  | [답안 2](/java-codes/src/practice/algorithm/array/leetcode_26.md) |
