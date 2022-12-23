@@ -1,0 +1,47 @@
+package practice.algorithm.stackqueue;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.util.PriorityQueue;
+import java.util.Collections;
+
+/**
+ * https://www.acmicpc.net/problem/11279
+ * 26212 kb / 336 ms
+ * 최대 힙
+ * - 미리 구현된 PriorityQueue 자료형을 사용한다.
+ * */
+public class Bj11279 {
+    private static final PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < n; i++) {
+            int x = Integer.parseInt(br.readLine());
+            int result = maxHeap(x);
+            if (result >=0 ) {
+                sb.append(result).append("\n");
+            }
+        }
+
+        System.out.println(sb);
+    }
+
+    private static int maxHeap(int x) {
+        if (x == 0) {
+            if (maxHeap.isEmpty()) {
+                return 0;
+            }
+
+            return maxHeap.poll();
+        }
+
+        maxHeap.offer(x);
+        return -1;
+    }
+}
