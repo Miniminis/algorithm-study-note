@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * bfs
+ * 1 2 3 8 7 4 5 6
+ * */
 public class Bfs {
     public static void main(String[] args) {
         int[][] graph = new int[][]{
@@ -21,24 +25,26 @@ public class Bfs {
         boolean[] visited = new boolean[9];
         Arrays.fill(visited, false);
 
-        bfs(graph, 1, visited);
+        bfs(graph, visited, 1);
     }
 
-    private static void bfs(int[][] graph, int i, boolean[] visited) {
+    private static void bfs(int[][] graph, boolean[] visited, int i) {
         visited[i] = true;
+
         Queue<Integer> queue = new LinkedList<>();
         queue.add(i);
 
         while (!queue.isEmpty()) {
-            int v = queue.poll();
-            System.out.println("v = " + v);
+            Integer v = queue.poll();
+            System.out.print(v + " ");
 
             for (int node : graph[v]) {
                 if (!visited[node]) {
-                    queue.add(node);
                     visited[node] = true;
+                    queue.add(node);
                 }
             }
         }
     }
+
 }
