@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 /**
- * https://www.acmicpc.net/problem/2178
+ * https://www.acmicpc.net/problem/7576
  * 30m / 40m
  * 120164 kb / 612 ms
  * 토마토
@@ -35,7 +35,7 @@ import java.util.StringTokenizer;
  *          -> 적어도 max 일수는 지나야 상자 내 모든 토마토에 도달할 수 있으므로
  *      - 최대값 구했다면 -1 : 시작값이 0이 아니라 1이기 때문에 정확한 일수 계산을 위해서
  * */
-public class Bj2178 {
+public class Bj7576 {
 
     private static final int NOT_RIPEN = 0;
     private static final int RIPEN = 1;
