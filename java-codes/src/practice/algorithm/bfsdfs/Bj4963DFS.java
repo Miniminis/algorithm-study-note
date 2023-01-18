@@ -22,7 +22,7 @@ import java.util.StringTokenizer;
  *      - 한번 방문한 곳은 VISITED=2 처리하여 중복방문 안되도록 함
 *  - 총 몇 번의 dfs 를 순회했는지 count++ 하여 출력
  * */
-public class Bj4963_dfs {
+public class Bj4963DFS {
 
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static StringTokenizer st;
