@@ -19,6 +19,9 @@ import java.util.Arrays;
  *  - 주유하는 시점 : 내림차순일 경우 : 5->2 : ok, 2->4 : no
  * 결과
  * - 34960 kb / 392 ms
+ * 반성하기
+ * 1. 주유하는 시점을 찾는 아이디어를 빠르게 찾지 못했다.
+ * - 가장 저렴한 곳이 아니라, 이후의 도시가 내 가격보다 비싸면, 해당 도시는 고려 대상에서 제외하고 충전하고 간다는 마음이 있어야 한다.
  * */
 public class Bj13305 {
     public static void main(String[] args) throws IOException {
