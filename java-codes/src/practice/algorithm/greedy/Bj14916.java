@@ -19,6 +19,9 @@ import java.io.InputStreamReader;
  *      -> 이 방법은 직관적이다. 한번에 이해할 수 있어서 이 방법으로 풀기로 한다.
  * 결과
  * - 14224 kb / 132 ms
+ * 반성하기
+ * 1. 문제 해결의 아이디어를 쉽게 떠올리지 못했다.
+ * - 5로 나누거나 2로 빼는 연산, 두개만 가능하다고 애초에 생각했다면, 접근이 훨씬 쉬웠을 것이다.
  * */
 public class Bj14916 {
     public static void main(String[] args) throws IOException {

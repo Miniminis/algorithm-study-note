@@ -27,6 +27,9 @@ import java.util.Arrays;
  * - 3 2 1 : 3 + 1 + 0 = 4
  * 결과
  * - 22240 kb / 236 ms
+ * 반성하기
+ * 1. 어차피 팁의 값이 0 이하가 되는 순간 그 이후의 배열 값은 계산할 필요도 없다.
+ *      내림차순으로 탐색하고, 순서도 더 뒤이기 때문에 계속 음수일 것이기 떄문.
  * */
 public class Bj1758 {
     public static void main(String[] args) throws IOException {
@@ -43,8 +46,6 @@ public class Bj1758 {
         long total = 0;
         for (int i = 0; i < n; i++) {
             int finalTip = line[n-i-1] - i;
-            //TODO.1 어차피 팁의 값이 0 이하가 되는 순간 그 이후의 배열 값은 계산할 필요도 없다.
-            // 내림차순으로 탐색하고, 순서도 더 뒤이기 때문에 계속 음수일 것이기 떄문.
             if (finalTip < 0) {
                 break;
             }
