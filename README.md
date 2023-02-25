@@ -5,7 +5,7 @@
 ## Algorithm Study Note
 
 - 알고리즘 개념을 공부하고 문제 풀이를 [블로그](https://wiki.mhson.world/cs/algorithm-and-datatype) 에 기록합니다.
-- 매일매일을 기록은 [이곳](https://github.com/Miniminis/algorithm-study-note/pulls?q=is%3Apr+is%3Aclosed) 에서 모아볼 수 있습니다. 
+- 매일매일의 기록은 [커밋기록](https://github.com/Miniminis/algorithm-study-note/commits/main) 에서 모아볼 수 있습니다. 
 
 ## Problem Reference
 
