@@ -1,6 +1,6 @@
 package practice.algorithm.math;
 
-public class GDCLoop {
+public class GCDLoop {
     public static void main(String[] args) {
 
         int a = 24;
@@ -13,10 +13,10 @@ public class GDCLoop {
             b = temp;
         }
 
-        System.out.println(gdc(a, b));
+        System.out.println(gcd(a, b));
     }
 
-    private static int gdc(int a, int b) {
+    private static int gcd(int a, int b) {
         while (b != 0) {
             int r = a % b;
             a = b;

@@ -1,6 +1,6 @@
 package practice.algorithm.math;
 
-public class GDCRecursion {
+public class GCDRecursion {
     public static void main(String[] args) {
 
         int a = 24;
@@ -13,11 +13,11 @@ public class GDCRecursion {
             b = temp;
         }
 
-        System.out.println(gdc(a, b));
+        System.out.println(gcd(a, b));
     }
 
-    private static int gdc(int a, int b) {
+    private static int gcd(int a, int b) {
         if (b == 0) return a;
-        return gdc(b, a % b);
+        return gcd(b, a % b);
     }
 }
