@@ -1,4 +1,4 @@
-# One Day One Algorithm Project
+# 1 Day 1 Algorithm Challenge
 
 > 하루에 하나의 알고리즘 문제를 풀고 기록하는 도전을 진행중입니다.
 
