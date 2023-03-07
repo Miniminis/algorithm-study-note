@@ -4,7 +4,6 @@ package practice.algorithm.bitmasking;
  * 집합에 원소 추가
  * - 현재상태인 cur 이 존재할 때, p번 원소를 추가한다고 가정.
  * - cur 에서 p번째 비트만 1로 바꾸어주어야 한다.
- * -
  * */
 public class SetAdd {
     public static void main(String[] args) {
