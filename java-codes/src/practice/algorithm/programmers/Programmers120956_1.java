@@ -1,4 +1,4 @@
-package practice.algorithm.string;
+package practice.algorithm.programmers;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/120956
